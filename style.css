@@ -1,7 +1,3 @@
-body{
-    
-    ;
-}
 .img1{
      margin-bottom: auto;
     margin-top: auto;
@@ -9,8 +5,24 @@ body{
     width: 50em;
 
 }
+a { 
+    color: inherit; 
+} 
+a :hover{
+   color: #3cd3e7;
+}
+.center{
+        /* size: 14px; */
+    text-align: center;
+}
+#icon{
+
+    padding-top: 2em;
+    /* padding-left: 1em; */
+    width: 4em;
+}
 .img{
-    
+
     width: 50em;
     padding-left: 18em;
     padding-top: 7em; 
