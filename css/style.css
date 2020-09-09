@@ -29,7 +29,8 @@ a :hover{
 .img{
 
     width: 50em;
-    padding-left: 18em;
+    /*padding-left: 18em;*/
+    font-size: x-small;
     padding-top: 7em; 
 }
 .searchbar{
