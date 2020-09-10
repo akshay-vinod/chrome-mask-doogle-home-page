@@ -127,7 +127,7 @@ a :hover{
 @media only screen and (max-width: 500px) and (min-width: 0px){
         .searchbar:hover > .search_input{
         padding: 0 10px;
-        width: 291px;
+        width: 250px;
         caret-color:red;
         transition: width 0.4s linear;
         }
