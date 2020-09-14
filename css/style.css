@@ -1,144 +1,148 @@
-.img1{
-     margin-bottom: auto;
-    margin-top: auto;
-    padding: 10px;
+.img1 {
+  margin-bottom: auto;
+  margin-top: auto;
+  padding: 10px;
+  width: 50em;
+}
+a {
+  color: inherit;
+}
+a :hover {
+  color: #0aa7b3;
+}
+.center {
+  /* size: 14px; */
+  text-align: center;
+}
+#icon {
+  padding-top: 0.5em;
+  /* padding-left: 1em; */
+  font-size: 2em;
+}
+#icon1 {
+  padding-top: 0.5em;
+  padding-left: 1em;
+  font-size: 2em;
+}
+@media only screen and (max-width: 500px) and (min-width: 0px) {
+  #img {
     width: 50em;
-
+    /*padding-left: 18em;*/
+    font-size: xx-small;
+    padding-top: 7em;
+    animation: fadeIn ease 5s;
+    -webkit-animation: fadeIn ease 5s;
+    -moz-animation: fadeIn ease 5s;
+    -o-animation: fadeIn ease 5s;
+    -ms-animation: fadeIn ease 5s;
+  }
 }
-a { 
-    color: inherit; 
-} 
-a :hover{
-   color: #0aa7b3;
-}
-.center{
-        /* size: 14px; */
-    text-align: center;
-}
-#icon{
-
-    padding-top: .5em;
-    /* padding-left: 1em; */
-    font-size: 2em;
-}
-#icon1{
-     padding-top: .5em;
-     padding-left: 1em; 
-    font-size: 2em;
-}
-@media only screen and (max-width: 500px) and (min-width: 0px){
-    #img{
-
-        width: 50em;
-        /*padding-left: 18em;*/
-        font-size: xx-small;
-        padding-top: 7em; 
-        animation: fadeIn ease 5s;
-        -webkit-animation: fadeIn ease 5s;
-        -moz-animation: fadeIn ease 5s;
-        -o-animation: fadeIn ease 5s;
-        -ms-animation: fadeIn ease 5s;
-    }
-}
-@media only screen and (max-width: 3000px) and (min-width: 501px){
-    #img{
-
-        width: 50em;
-        /*padding-left: 18em;*/
-        font-size: x-small;
-        padding-top: 7em; 
-        animation: fadeIn ease 5s;
-        -webkit-animation: fadeIn ease 5s;
-        -moz-animation: fadeIn ease 5s;
-        -o-animation: fadeIn ease 5s;
-        -ms-animation: fadeIn ease 5s;
-    }
+@media only screen and (max-width: 3000px) and (min-width: 501px) {
+  #img {
+    width: 50em;
+    /*padding-left: 18em;*/
+    font-size: x-small;
+    padding-top: 7em;
+    animation: fadeIn ease 5s;
+    -webkit-animation: fadeIn ease 5s;
+    -moz-animation: fadeIn ease 5s;
+    -o-animation: fadeIn ease 5s;
+    -ms-animation: fadeIn ease 5s;
+  }
 }
 @keyframes fadeIn {
   0% {
-    opacity:0;
+    opacity: 0;
   }
   100% {
-    opacity:1;
+    opacity: 1;
   }
 }
 
 @-moz-keyframes fadeIn {
   0% {
-    opacity:0;
+    opacity: 0;
   }
   100% {
-    opacity:1;
+    opacity: 1;
   }
 }
 
 @-webkit-keyframes fadeIn {
   0% {
-    opacity:0;
+    opacity: 0;
   }
   100% {
-    opacity:1;
+    opacity: 1;
   }
 }
 
 @-o-keyframes fadeIn {
   0% {
-    opacity:0;
+    opacity: 0;
   }
   100% {
-    opacity:1;
+    opacity: 1;
   }
 }
 
 @-ms-keyframes fadeIn {
   0% {
-    opacity:0;
+    opacity: 0;
   }
   100% {
-    opacity:1;
+    opacity: 1;
+  }
 }
+.searchbar {
+  margin-bottom: auto;
+  margin-top: auto;
+  height: 60px;
+  background-color: #353b48;
+  border-radius: 30px;
+  padding: 10px;
+  float: left;
 }
-.searchbar{
-    margin-bottom: auto;
-    margin-top: auto;
-    height: 60px;
-    background-color: #353b48;
-    border-radius: 30px;
-    padding: 10px;
-    float: left;
-    }
-     .search_input{
-    color: white;
-    border: 0;
-    outline: 0;
-    background: none;
-    width: 0;
-    caret-color:transparent;
-    line-height: 40px;
-    transition: width 0.4s linear;
-    }
+.search_input {
+  color: white;
+  border: 0;
+  outline: 0;
+  background: none;
+  width: 0;
+  caret-color: transparent;
+  line-height: 40px;
+  transition: width 0.4s linear;
+}
 
-    .searchbar:hover > .search_input{
-    padding: 0 10px;
-    width: 291px;
-    caret-color:red;
-    transition: width 0.4s linear;
-    }
-@media only screen and (max-width: 500px) and (min-width: 0px){
-        .searchbar:hover > .search_input{
-        padding: 0 10px;
-        width: 150px;
-        caret-color:red;
-        transition: width 0.4s linear;
-        }
+.searchbar:hover > .search_input {
+  padding: 0 10px;
+  width: 291px;
+  caret-color: red;
+  transition: width 0.4s linear;
 }
-@media only screen and (max-width: 3000px) and (min-width: 501px){
-        .searchbar:hover > .search_input{
-        padding: 0 10px;
-        width: 400px;
-        caret-color:red;
-        transition: width 0.4s linear;
-        }
+@media only screen and (max-width: 499px) and (min-width: 0px) {
+  .searchbar:hover > .search_input {
+    padding: 0 10px;
+    width: 150px;
+    caret-color: red;
+    transition: width 0.4s linear;
+  }
+}
+@media only screen and (max-width: 520px) and (min-width: 500px) {
+  .searchbar:hover > .search_input {
+    padding: 0 10px;
+    width: 350px;
+    caret-color: red;
+    transition: width 0.4s linear;
+  }
+}
+@media only screen and (max-width: 3000px) and (min-width: 521px) {
+  .searchbar:hover > .search_input {
+    padding: 0 10px;
+    width: 400px;
+    caret-color: red;
+    transition: width 0.4s linear;
+  }
 }
     .searchbar:hover > .search_icon{
         background: white;
